@@ -3,6 +3,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
 import androidx.compose.ui.window.rememberWindowState
+import contextMenu.*
 
 fun main() = application {
     Window(
@@ -14,6 +15,8 @@ fun main() = application {
         //TutorialImages01()
         //TutorialImages02()
         //TutorialImages03()
+        /*TryIcon ejecutarlo desde el propio archio*/
+        /*WindowIcon lo mismo*/
 
 // ----------TURORIAL MOUSE-----------
         //TutorialMouse01()
@@ -26,7 +29,18 @@ fun main() = application {
         //TutorialMouse08()
         //TutorialMouse09()
 
-//---------TUTORIAL SCROLLBAR----------
+//---------TUTORIAL SCROLLBAR Y TOOLTIPS----------
+        //TutorialScrollbar01()
+        //TutorialScrollbar02()
+        //TutorialTooltip03()
+
+//---------TUTORIAL CONTEXT MENU-----------
+        //TutorialMenu01()
+        //TutorialMenu02()
+        //TutorialMenu03()
+        //TutorialMenu04()
+        /* CustomText lanzarlo desde el main en el archivo */
+        /*Swing interoperability lo mismo*/
 
     }
 }

@@ -1,4 +1,4 @@
-package MouseEvents
+package mouseEvents
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.ExperimentalAnimationApi

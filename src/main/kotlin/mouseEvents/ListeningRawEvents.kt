@@ -1,4 +1,4 @@
-package MouseEvents
+package mouseEvents
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -9,7 +9,6 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.pointer.PointerEventType
 import androidx.compose.ui.input.pointer.pointerInput
-import androidx.compose.ui.window.singleWindowApplication
 
 @Composable
 fun TutorialMouse06() {

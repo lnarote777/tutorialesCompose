@@ -1,4 +1,4 @@
-package MouseEvents
+package mouseEvents
 
 import androidx.compose.foundation.gestures.detectDragGestures
 import androidx.compose.runtime.getValue
@@ -17,7 +17,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.material.Text
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
-import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
@@ -26,7 +25,6 @@ import androidx.compose.ui.input.pointer.isCtrlPressed
 import androidx.compose.ui.platform.LocalWindowInfo
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.window.singleWindowApplication
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable

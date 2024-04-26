@@ -1,4 +1,4 @@
-package MouseEvents
+package mouseEvents
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -10,7 +10,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.pointer.PointerEventType
 import androidx.compose.ui.input.pointer.onPointerEvent
 import androidx.compose.ui.unit.sp
-import androidx.compose.ui.window.singleWindowApplication
 
 @OptIn(ExperimentalComposeUiApi::class)
 @Composable
